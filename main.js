@@ -1,7 +1,14 @@
 import './style.css'
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';//import { isAbsolute } from 'path';
-//import { request } from 'http';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import myPic from "./pictures/IMG_6594.jpeg"
+import moonTextureImg from "./pictures/moon.jpeg"
+import moonBumpImg from "./pictures/normal.jpeg"
+import earthBumpImg from "./pictures/earthBump.jpeg"
+import earthTextureImg from "./pictures/earthTexture.jpeg"
+import marsTextureImg from "./pictures/marsTexture.jpeg"
+import marsBumpImg from "./pictures/marsNormal.jpeg"
+import spaceBGImg from "./pictures/spaceBG.jpg"
 
 
 
@@ -18,7 +25,7 @@ camera.position.setZ(30);
 renderer.render(scene,camera);
 
 //Mypic rectangle
-const Mypic = new THREE.TextureLoader().load('pictures/IMG_6594.jpeg');
+const Mypic = new THREE.TextureLoader().load(myPic);
 const me = new THREE.Mesh(
     new THREE.PlaneGeometry(10,17),
     new THREE.MeshStandardMaterial({
@@ -32,8 +39,8 @@ me.position.y = 3;
 
 
 //moon
-const moonTexture = new THREE.TextureLoader().load('pictures/moon.jpeg');
-const moonNormal = new THREE.CubeTextureLoader().load('pictures/normal.jpeg');
+const moonTexture = new THREE.TextureLoader().load(moonTextureImg);
+const moonNormal = new THREE.CubeTextureLoader().load(moonBumpImg);
 const moon = new THREE.Mesh(
     new THREE.SphereGeometry(3,32,32),
     new THREE.MeshStandardMaterial({
@@ -46,8 +53,8 @@ moon.position.z = 15;
 moon.position.x = 20;
 
 // //earth
-const earthTexture = new THREE.TextureLoader().load('pictures/earthTexture.jpeg');
-const earthNormal = new THREE.CubeTextureLoader().load('pictures/earthBump.jpeg');
+const earthTexture = new THREE.TextureLoader().load(earthTextureImg);
+const earthNormal = new THREE.CubeTextureLoader().load(earthBumpImg);
 const earth = new THREE.Mesh(
     new THREE.SphereGeometry(3,32,32),
     new THREE.MeshStandardMaterial({
@@ -60,8 +67,8 @@ earth.position.z = 15;
 earth.position.x = -5;
 
 //mars
-const marsTexture = new THREE.TextureLoader().load('pictures/marsTexture.jpeg');
-const marsNormal = new THREE.CubeTextureLoader().load('pictures/marsNormal.jpeg');
+const marsTexture = new THREE.TextureLoader().load(marsTextureImg);
+const marsNormal = new THREE.CubeTextureLoader().load(marsBumpImg);
 const mars = new THREE.Mesh(
     new THREE.SphereGeometry(3,32,32),
     new THREE.MeshStandardMaterial({
@@ -100,7 +107,7 @@ function addStar(){
 Array(200).fill().forEach(addStar);
 
 //Space background
-const spaceTexture = new THREE.TextureLoader().load('pictures/spaceBG.jpg');
+const spaceTexture = new THREE.TextureLoader().load(spaceBGImg);
 scene.background = spaceTexture;
 
 
