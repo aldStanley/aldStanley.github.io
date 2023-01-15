@@ -77,12 +77,11 @@ const mars = new THREE.Mesh(
     })
 );
 scene.add(mars);
-//mars.position.z = 5;
 mars.position.x = -15;
 
 //Light
 const pointLight = new THREE.PointLight(0xffffff);
-pointLight.position.set(0,0,30);
+pointLight.position.set(4,3,5);
 const ambientLight = new THREE.AmbientLight(0xffffff);
 //scene.add(ambientLight);
 scene.add(pointLight);
