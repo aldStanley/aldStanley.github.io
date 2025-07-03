@@ -1,19 +1,19 @@
 import React from 'react'
-import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
+import MyBgAnimation from '../MyBgAnimation'
+import { MyContainer, MyBg, MyLeftContainer, Img, MyRightContainer, MyInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './MyStyle'
 import myImg from '../../images/Me.jpeg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
-const HeroSection = () => {
+const MySection = () => {
     return (
         <div id="about">
-            <HeroContainer>
-                <HeroBg>
-                    <HeroBgAnimation />
-                </HeroBg>
-                <HeroInnerContainer >
-                    <HeroLeftContainer id="Left">
+            <MyContainer>
+                <MyBg>
+                    <MyBgAnimation />
+                </MyBg>
+                <MyInnerContainer >
+                    <MyLeftContainer id="Left">
                         <Title>Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
                             I am a
@@ -29,17 +29,17 @@ const HeroSection = () => {
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
                         <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
-                    </HeroLeftContainer>
+                    </MyLeftContainer>
 
-                    <HeroRightContainer id="Right">
+                    <MyRightContainer id="Right">
 
-                        <Img src={myImg} alt="hero-image" />
-                    </HeroRightContainer>
-                </HeroInnerContainer>
+                        <Img src={myImg} alt="My-image" />
+                    </MyRightContainer>
+                </MyInnerContainer>
 
-            </HeroContainer>
+            </MyContainer>
         </div>
     )
 }
 
-export default HeroSection
+export default MySection

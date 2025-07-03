@@ -9,7 +9,7 @@ export const Bio = {
       "I am a motivated individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/aldStanley",
     resume:
-      "https://drive.google.com/file/d/1bHmMtNpxKaFq3QjVphJmz2fGxJG6O2W8/view?usp=share_link",
+      "https://drive.google.com/file/d/1uSv8k9o0_VL3DJP_o4K55hJOi_WJ_Do8/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/stanleyychung/",
     insta: "https://www.instagram.com/stanleyyc0921/"
   };
@@ -142,11 +142,20 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://images.squarespace-cdn.com/content/v1/5db8d87938c9e547f96fda7e/0d6e50c5-61b4-4370-9adf-8ce7696578b4/longhorns.png",
+      img: "https://cdn.myportfolio.com/2f3b861d2f6dbc637f25a60871780f38/9eda9150-5b4d-4dab-985e-198f231b7137_rw_1920.jpg?h=c3c004cb5c7dfb4f79073c2424e0d3e6",
+      school: "Columbia University in the City of New York",
+      date: "Sep 2025 - May 2027",
+      grade: "4.0 / 4.0 GPA",
+      desc: "Attending",
+      degree: "Master of Science, Computer Science",
+    },
+    {
+      id: 1,
+      img: "https://www.ivyscholars.com/wp-content/uploads/2020/06/ut_austin_logo.png",
       school: "the University of Texas at Austin",
-      date: "Sep 2021 - Sep 2025",
-      grade: "3.64 / 4.0 GPA",
-      desc: "I am currently pursuing a Bachelor's degree in Electrical and Computer Engineering at the University of Texas at Austin. I have completed 5 semesters and have a GPA of 3.596. I have taken courses in Data Structures, Algorithms, Software Design and Implementation, and Object-Oriented Programming.",
+      date: "Sep 2021 - May 2025",
+      grade: "3.7 / 4.0 GPA",
+      desc: "Graduated",
       degree: "Bachelor of Science, Electrical and Computer Engineering",
     },
   ];
