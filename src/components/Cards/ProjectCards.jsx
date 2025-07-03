@@ -46,6 +46,14 @@ const Image = styled.img`
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
 `
+const Span = styled.span`
+overflow: hidden;
+display: -webkit-box;
+max-width: 100%;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+text-overflow: ellipsis;
+`
 
 const Tags = styled.div`
     width: 100%;
@@ -138,7 +146,13 @@ const ProjectCards = ({project,setOpenModal}) => {
             <Details>
                 <Title>{project.title}</Title>
                 <Date>{project.date}</Date>
-                <Description>{project.description}</Description>
+                <Description>
+                    <Span>
+                    {project.description.split('\n').map((line, index) => (
+                        <p key={index}>{line}</p>
+                    ))}
+                    </Span>
+                </Description>
             </Details>
             <Members>
                 {project.member?.map((member) => (

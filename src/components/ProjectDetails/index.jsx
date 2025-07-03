@@ -84,6 +84,12 @@ const Label = styled.div`
     }
 `;
 
+const Span = styled.span`
+display: block;
+max-width: 100%;
+white-space: pre-wrap; /* allows \n to become visible line breaks if you use them */
+overflow: visible;
+`
 const Tags = styled.div`
     display: flex;
     flex-wrap: wrap;
@@ -201,11 +207,17 @@ const index = ({ openModal, setOpenModal }) => {
                     <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
                     <Tags>
-                        {project?.tags.map((tag) => (
-                            <Tag>{tag}</Tag>
+                        {project?.tags?.map((tag, index) => (
+                            <Tag key={index}>{tag}</Tag>
                         ))}
                     </Tags>
-                    <Desc>{project?.description}</Desc>
+                    <Desc>
+                        <Span>
+                        {project?.description.split('\n').map((line, index) => (
+                            <p key={index}>{line}</p>
+                        ))}
+                        </Span>
+                    </Desc>
                     {project.member && (
                         <>
                             <Label>Members</Label>
@@ -226,7 +238,6 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
                         {project?.webapp ? (
                             <Button href={project?.webapp} target='new'>View Live App</Button>
 )                       : null}

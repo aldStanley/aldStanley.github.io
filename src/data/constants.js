@@ -6,7 +6,7 @@ export const Bio = {
       "Full Stack Developer"
     ],
     description:
-      "I am a motivated individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "I'm a software engineer passionate about solving real-world problems and building impactful systems. With a strong interest in AI, I enjoy creating intelligent tools that make a difference. Recently, I contributed to the development of GeoFlow, a geo-AI agent achieving state-of-the-art performance—our short paper was recently submitted to the 33rd ACM SIGSPATIAL and is currently under review. (Details below.) I'm always open to opportunities to collaborate on meaningful, forward-looking tech projects!",
     github: "https://github.com/aldStanley",
     resume:
       "https://drive.google.com/file/d/1uSv8k9o0_VL3DJP_o4K55hJOi_WJ_Do8/view?usp=drive_link",
@@ -15,57 +15,14 @@ export const Bio = {
   };
   
   export const skills = [
-    {
-      title: "Frontend",
-      skills: [
-        {
-          name: "React Js",
-          image:
-            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-        {
-          name: "HTML",
-          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-        },
-        {
-          name: "CSS",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-        },
-        {
-          name: "JavaScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        },
-        {
-          name: "Bootstrap",
-          image:
-            "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-        },
-      ],
-    },
-    {
-      title: "Backend",
-      skills: [
-        {
-          name: "Node Js",
-          image: "https://nodejs.org/static/images/logo.svg",
-        },
-        {
-          name: "Python",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-        },
-        {
-          name: "MongoDB",
-          image:
-            "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
-        },
-      ],
-    },
+   //Python, C, C++, Java, Linux, JavaScript, HTML, CSS, React, Assembly
     {
       title: "Programming Languages",
       skills: [
+        {
+          name: "Python",
+          image:"https://i.pinimg.com/564x/1d/be/60/1dbe6034fd59661cfd02d5aa8a79823a.jpg"
+        },
         {
           name: "Java",
           image:
@@ -81,10 +38,74 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
         },
+        {
+          name: "Linux",
+          image:
+            "https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/OS-Linux-icon.png",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://static.vecteezy.com/system/resources/thumbnails/027/127/463/small_2x/javascript-logo-javascript-icon-transparent-free-png.png",
+        },
+        {
+          name: "HTML",
+          image:
+            "https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+        },
+        {
+          name: "CSS",
+          image:
+            "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
+        },
+        {
+          name: "React",
+          image:
+            "https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react-512.png",
+        },
+        {
+          name: "Assembly",
+          image:
+            "https://img.icons8.com/color/512w/assembly.png",
+        },
       ],
     },
     {
-      title: "Others",
+      title: "Data & AI/ML",
+      skills: [
+        {
+          name:"Sciki-learn",
+          image:"https://icon2.cleanpng.com/20180817/btk/c3321f33f88b7d5dfff6c3e6feb8c41f.webp"
+        },
+        {
+          name:"ONNX",
+          image:"https://artwork.lfaidata.foundation/projects/onnx/stacked/color/onnx-stacked-color.png"
+        },
+        {
+          name:"Pandas",
+          image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCpCB6Du8H6Lrm5WIbDcdW59uqoSiL-eeTlw&s"
+        },
+        {
+          name:"NumPy",
+          image:"https://www.svgrepo.com/show/373938/numpy.svg"
+        },
+        {
+          name:"Matplotlib",
+          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/1024px-Matplotlib_icon.svg.png"
+        },
+        {
+          name:"Jupyter Notebook",
+          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png"
+        },
+        {
+          name:"LLM API Integration (e.g., Open AI, Claude)",
+          image:"https://static.vecteezy.com/system/resources/previews/022/227/364/non_2x/openai-chatgpt-logo-icon-free-png.png"
+        },
+
+      ]
+    },
+    {
+      title: "Tools",
       skills: [
         {
           name: "Git",
@@ -94,7 +115,7 @@ export const Bio = {
         {
           name: "GitHub",
           image:
-            "https://static-00.iconduck.com/assets.00/github-icon-2048x2048-dpporae2.png",
+            "https://www.svgrepo.com/show/475654/github-color.svg",
         },
         {
           name: "Docker",
@@ -102,10 +123,14 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
         },
         {
-          name: "Postman",
+          name: "SQL",
           image:
-            "https://cdn.worldvectorlogo.com/logos/postman.svg",
+            "https://www.svgrepo.com/show/331760/sql-database-generic.svg",
         },
+        {
+          name: "REST API",
+          image: "https://media.lordicon.com/icons/wired/gradient/1330-rest-api.svg"
+        }
       ],
     },
   ];
@@ -117,24 +142,23 @@ export const Bio = {
       role: "Software Engineer Intern",
       company: "Formosa Plastics Corporation",
       date: "Jun 2024 – Aug 2024 ",
-      desc: "• Improved barcode generation efficiency by 24% by developing software to autofill required grade information • Implemented locks to ensure mutual exclusion during database updates and module operations, preventing concurrency issues and ensuring accurate data retrieval • Optimized extraction of product grade by constructing algorithm to filter and compensate for irrelevant system message",
-      skills: [
-        "PI System",
-      ],
+      desc: "- Developed software to autofill grade information, replacing manual operations and improving barcode generation efficiency by 24%\n- Implemented safeguards to prevent conflicts during concurrent system operations, ensuring consistent and accurate database updates\n- Designed and improved system message filtering algorithm for product grade extraction, increasing output accuracy by 20% ",
     },
     {
       id: 1,
       img: "https://ik.imagekit.io/v2onc6i6hiu/manufacturers/logos/FPC-USA_StackedLogo.png",
+      role: "Data Science Intern, continued",
+      company: "Formosa Plastics Corporation",
+      date: "May 2023 - June 2023",
+      desc: "- Implemented alarm-driven software module to replace manual system operation interruption, reducing 26% reaction delay to alarms\n- Guided data-driven improvements by building ML models to uncover critical factors influencing polymerization dynamics \n- Applied feature importance analysis to identify production process bottlenecks, increasing 3% plastic pallet manufacturing yield",
+    },
+    {
+      id: 2,
+      img: "https://ik.imagekit.io/v2onc6i6hiu/manufacturers/logos/FPC-USA_StackedLogo.png",
       role: "Data Science Intern",
       company: "Formosa Plastics Corporation",
-      date: "May 2022 - June 2022, May 2023 - June 2023",
-      desc: "• Learned and gained hands-on experience with Distributed Control Systems in industrial production processes • Increased 3% production quality by proposing solution based on identified variables of major impact on the inconsistency of resin polymerization with Advanced Process Control system • Developed software module to automatically extract and pre-process targeted data • Proposed solutions on how to enhance quality of resin pellet by coordinating with various departments ",
-      skills: [
-        "MS Excel",
-        "Data analysis",
-        "Python",
-        "Pandas",
-      ],
+      date: "May 2022 - June 2022",
+      desc: "- Implemented alarm-driven software module to replace manual system operation interruption, reducing 26% reaction delay to alarms\n- Guided data-driven improvements by building ML models to uncover critical factors influencing polymerization dynamics \n- Applied feature importance analysis to identify production process bottlenecks, increasing 3% plastic pallet manufacturing yield",
     },
     
   ];
@@ -155,42 +179,34 @@ export const Bio = {
       school: "the University of Texas at Austin",
       date: "Sep 2021 - May 2025",
       grade: "3.7 / 4.0 GPA",
-      desc: "Graduated",
+      desc: "Graduated\nRelevant Coursework: Data Structures, Algorithms, Compilers, Operating Systems, Machine Learning, Data Analytics for Edge AI",
       degree: "Bachelor of Science, Electrical and Computer Engineering",
     },
   ];
   
   export const projects = [
- 
     {
       id: 0,
-      title: "Flight Software Testing System – Texas Spacecraft Laboratory ",
-      date: "Sep 2024 – Present ",
-      description: "• Designed and implemented software testing system for satellite hardware in a project affiliated with NASA and SpaceX, enabling efficient and reliable hardware validation.\n • Enhanced system performance by implementing caching mechanism to reduce redundant data access and optimize processing speed\n • Facilitated data analysis and visualization by developing real-time data export feature, updating CSV files at one-second intervals",
-      image: "../images/TSLPic.jpeg",
-      tags:[ "Python", "System Design"],
-      category: "",
-      github: ""
+      title: "UT Austin Agentic AI Lab – GeoFlow Short Paper Co-Author",
+      date: "Apr 2025 – Jun 2025",
+      description: "- Invented GeoFlow, a state-of-the-art Python system that generates workflows for geospatial tasks from natural human commands\n- Designed custom evaluation algorithm, enabling reliable system performance measurement among multiple valid output structures\n- Improved agentic success by 6.8% and correctness by 3.3%, with slightly lower token usage than the previous state-of-the-art model\n- Co-authored manuscript with Dr. Dimitrios Stamoulis and Dr. Diana Marculescu, under review for ACM SIGSPATIAL 2025",
+      image: "https://logos-world.net/wp-content/uploads/2022/02/University-of-Texas-at-Austin-Seal-Logo.png",
     },
     {
       id: 1,
-      title: "PINTOS Operating System Lab",
+      title: "Texas Spacecraft Laboratory – Satellite Hardware System, Lead Engineer",
       date: "Sep 2024 – Present ",
-      description: "• Built user program functionality including system calls, argument passing, and synchronization using locks and semaphores.\n • Developed supplemental page table, frame table, and swap table and improved efficiency through paging and dynamic stack growth\n • Enhanced file system with indexed files, subdirectories, and buffer caching while ensuring data persistence and reliable concurrent access through synchronization",
-      image:"",
-      tags:[ "C", "Assembly"],
-      category: "",
+      description: "- Built scalable hardware testing system, enabling real-time signal processing through serial communication and multithreading\n - Prevented costly delays and signal misreads by ensuring precise 5ms signal intervals, eliminating issues common in manual testing\n- Implemented caching that reduced redundant satellite signal requests by 20%, optimizing data retrieval and system performance\n- Mentored junior engineers and ran agile dev practice to ensure smooth handoff and long-term maintainability of the software system",
+      image: "https://linktr.ee/og/image/uttsl.jpg",
       github: ""
     },
     {
       id: 2,
-      title: "E-commerce Web App",
-      date: "Oct 2023 -Jan 2024 ",
-      description: "•	Developed intuitive UI that allows user to browse products by category or by searching using Next.js and tailwind CSS\n •	Integrated Yarn library to store cart items locally, reducing database load to optimize database performance\n •	Integrated Stripe API to implement robust and secure checkout and payment transactions",
-      image: "../images/EcommercePic.jpeg",
-      tags:[ "Next.js", "MongoDB", "Stripe API", "tailwind CSS", "Javascript", "HTML"],
-      category: "web app",
-      github: "https://github.com/aldStanley/Ecommerce/tree/main"
+      title: "Stanford PINTOS Operating Systems Lab - UT Austin ECE461S Undergraduate",
+      date: "Sep 2024 – Dec 2024",
+      description: "- Built a functioning mini operating system capable of multitasking, memory management, and file storage within an x86 emulator\n- Prevented errors or crashes when multiple programs run simultaneously by integrating synchronization mechanisms\n- Allowed the OS to safely handle large programs without crashing by implementing virtual memory support with supplemental tables\n- Enabled dynamic stack growth and paging, ensuring programs can use memory flexibly and avoid failures under heavy load",
+      image:"https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/stanford-university-stacked.png",
+      github: ""
     },
     {
       id: 3,
@@ -199,14 +215,6 @@ export const Bio = {
       description:
         "The website you are looking at right now! Click the button below for details.",      
         image:"https://cdn3.iconfinder.com/data/icons/interview-element-1/64/portfolio-personal-information-newsletters-collection-512.png",
-      tags: [
-        "React",
-        "Frontend",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      category: "frontend",
       github: "https://github.com/aldStanley/NewWebsite",
     },
     {
@@ -216,13 +224,15 @@ export const Bio = {
       description:
         "This is a text version of the code-guessing game Mastermind. It Leverages Java networking APIs to establish a client-server architecture, utilizing multithreading to manage concurrency. I Designed a Message class to facilitate versatile communication protocol(such as Message containing not only String), enhance scalability, and prevent input anomaly errors. There is also robust error-handling mechanisms to efficiently and gracefully manage scenarios such as player disconnection",      
         image:"https://cdn11.bigcommerce.com/s-pqt7n8/images/stencil/1280x1280/products/6668/38385/mastermindgame__30108__68647.1683559179.370.500__85910.1696881251.jpg?c=2",
-      tags: [
-        "Java",
-        "Java networking APIs",
-        "Object Oriented Programming",
-      ],
-      category: "Client-Server app",
       github: "https://github.com/aldStanley/Mastermind-game",
+    },
+    {
+      id: 5,
+      title: "Texas Blockchain Engineering Lab – Blockchain From Scratch Engineer",
+      date: "Sep 2022 – Dec 2022",
+      description: "- Built core blockchain primitives in Rust, implementing block structures, secure hashing, proof-of-work mining, and chain validation\n- Developed peer-to-peer network layer to broadcast and synchronize new blocks, simulating decentralized consensus across nodes\n- Created command-line interface for adding blocks, viewing chain, and validating integrity, making blockchain intuitive and testable\n- Implemented compact proof-of-work mechanism with adjustable difficulty, ensuring chain security and preventing tampering ",
+        image:"https://media.licdn.com/dms/image/v2/D561BAQEH-xa3vertwA/company-background_10000/company-background_10000/0/1659909806517/texas_blockchain_cover?e=2147483647&v=beta&t=on_7IabxtMdc3m82IsyIZQeNHZW15_OuqjKx_tyrG0E",
+      github: "",
     },
     
     

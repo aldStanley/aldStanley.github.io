@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
+import { Container, Wrapper, Title, Desc, CardContainer, ToggleButton, Divider } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
 
@@ -13,32 +13,6 @@ const Projects = ({openModal,setOpenModal}) => {
         <Title>Projects</Title>
         <Desc>
         </Desc>
-        <ToggleButtonGroup >
-          {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-            :
-            <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'Client-Server app' ?
-            <ToggleButton active value="Client-Server app" onClick={() => setToggle('Client-Server app')}>CLIENT-SERVER</ToggleButton>
-            :
-            <ToggleButton value="Client-Server app" onClick={() => setToggle('Client-Server app')}>CLIENT-SERVER</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP</ToggleButton>
-            :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP</ToggleButton>
-          }
-          <Divider/>
-          {toggle === 'frontend' ?
-            <ToggleButton active value="frontend" onClick={() => setToggle('frontend')}>FRONTEND</ToggleButton>
-            :
-            <ToggleButton value="frontend" onClick={() => setToggle('frontend')}>FRONTEND</ToggleButton>
-          }
-          
-        </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
             .map((project) => (

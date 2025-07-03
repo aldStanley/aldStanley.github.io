@@ -141,7 +141,11 @@ const EducationCard = ({ education }) => {
             </Top>
             <Grade><b>Grade: </b>{education.grade}</Grade>
             <Description>
-                <Span>{education.desc}</Span>
+                <Span>
+                    {education.desc.split('\n').map((line, index) => (
+                        <p key={index}>{line}</p>
+                    ))}
+                </Span>
             </Description>
         </Card>
     )
