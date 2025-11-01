@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.0bfdea1c.js",
+    "main.js": "/static/js/main.066cb3c8.js",
     "static/media/Me.jpeg": "/static/media/Me.07825b56faef14013afd.jpeg",
     "static/media/UTSeal.png": "/static/media/UTSeal.0534429d6bbf157e1f5f.png",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.0bfdea1c.js.map": "/static/js/main.0bfdea1c.js.map"
+    "main.066cb3c8.js.map": "/static/js/main.066cb3c8.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.0bfdea1c.js"
+    "static/js/main.066cb3c8.js"
   ]
 }
