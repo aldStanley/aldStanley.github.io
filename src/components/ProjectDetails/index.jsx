@@ -66,8 +66,8 @@ const Desc = styled.div`
 `;
 
 const Image = styled.img`
-    width: 100%;
-    object-fit: cover;
+    width: auto;
+    height: auto;
     border-radius: 12px;
     margin-top: 30px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
@@ -238,9 +238,15 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        {project?.webapp ? (
-                            <Button href={project?.webapp} target='new'>View Live App</Button>
-)                       : null}
+                        {project?.github && (
+                            <Button 
+                                href={project.github} 
+                                target='new'
+                                dull={!project?.webapp && !project?.arxiv} 
+                            >
+                                {project.github.includes('arxiv.org') ? 'View Project' : 'View GitHub Repo'}
+                            </Button>
+                        )}
                     </ButtonGroup>
                 </Wrapper>
             </Container>

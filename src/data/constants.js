@@ -1,4 +1,5 @@
-;
+import UTSeal from "../images/UTSeal.png"
+
 export const Bio = {
     name: "Stanley Chung",
     roles: [
@@ -6,10 +7,10 @@ export const Bio = {
       "Full Stack Developer"
     ],
     description:
-      "I'm a software engineer passionate about solving real-world problems and building impactful systems. With a strong interest in AI, I enjoy creating intelligent tools that make a difference. Recently, I contributed to the development of GeoFlow, a geo-AI agent achieving state-of-the-art performance—our short paper was recently submitted to the 33rd ACM SIGSPATIAL and is currently under review. (Details below.) I'm always open to opportunities to collaborate on meaningful, forward-looking tech projects!",
+      "I'm a software engineer passionate about solving real-world problems and building impactful systems. With a strong interest in AI, I enjoy creating intelligent tools that make a difference. Recently, I contributed to the development of GeoFlow, a Geospatial AI agent achieving state-of-the-art performance—our short paper was recently accepted at the 33rd ACM SIGSPATIAL (Link below.) I'm always open to opportunities to collaborate on meaningful, forward-looking tech projects!",
     github: "https://github.com/aldStanley",
     resume:
-      "https://drive.google.com/file/d/1uSv8k9o0_VL3DJP_o4K55hJOi_WJ_Do8/view?usp=drive_link",
+      "https://drive.google.com/file/d/1ZG9bUhHyB2vdbWaFSE0GL3KsYTeNvvyJ/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/stanleyychung/",
     insta: "https://www.instagram.com/stanleyyc0921/"
   };
@@ -142,23 +143,15 @@ export const Bio = {
       role: "Software Engineer Intern",
       company: "Formosa Plastics Corporation",
       date: "Jun 2024 – Aug 2024 ",
-      desc: "- Developed software to autofill grade information, replacing manual operations and improving barcode generation efficiency by 24%\n- Implemented safeguards to prevent conflicts during concurrent system operations, ensuring consistent and accurate database updates\n- Designed and improved system message filtering algorithm for product grade extraction, increasing output accuracy by 20% ",
+      desc: "- Initiated and integrated system message filtering algorithm for product grade extraction, increasing output accuracy by 20%\n- Streamlined manual operations in collaboration with 3 technicians and 2 managers, improving barcode generation efficiency by 24%\n- Created reference guide detailing frequent system pitfalls, streamlining onboarding and minimizing errors for new team members",
     },
     {
       id: 1,
       img: "https://ik.imagekit.io/v2onc6i6hiu/manufacturers/logos/FPC-USA_StackedLogo.png",
-      role: "Data Science Intern, continued",
+      role: "Software Engineer Intern",
       company: "Formosa Plastics Corporation",
       date: "May 2023 - June 2023",
-      desc: "- Implemented alarm-driven software module to replace manual system operation interruption, reducing 26% reaction delay to alarms\n- Guided data-driven improvements by building ML models to uncover critical factors influencing polymerization dynamics \n- Applied feature importance analysis to identify production process bottlenecks, increasing 3% plastic pallet manufacturing yield",
-    },
-    {
-      id: 2,
-      img: "https://ik.imagekit.io/v2onc6i6hiu/manufacturers/logos/FPC-USA_StackedLogo.png",
-      role: "Data Science Intern",
-      company: "Formosa Plastics Corporation",
-      date: "May 2022 - June 2022",
-      desc: "- Implemented alarm-driven software module to replace manual system operation interruption, reducing 26% reaction delay to alarms\n- Guided data-driven improvements by building ML models to uncover critical factors influencing polymerization dynamics \n- Applied feature importance analysis to identify production process bottlenecks, increasing 3% plastic pallet manufacturing yield",
+      desc: "- Designed alarm-driven Python module to replace manual system operation interruption, reducing 26% reaction delay to alarms\n- Engineered machine learning analytics component, automating detection of the top 10 critical features in polymerization dynamics\n- Partnered with 2 teams to apply ML-driven feature analysis, identifying production bottlenecks and boosting pallet yield by 3%",
     },
     
   ];
@@ -166,19 +159,19 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://cdn.myportfolio.com/2f3b861d2f6dbc637f25a60871780f38/9eda9150-5b4d-4dab-985e-198f231b7137_rw_1920.jpg?h=c3c004cb5c7dfb4f79073c2424e0d3e6",
+      img: "https://png.pngtree.com/png-clipart/20220530/original/pngtree-columbia-university-png-image_7775958.png",
       school: "Columbia University in the City of New York",
       date: "Sep 2025 - May 2027",
-      grade: "4.0 / 4.0 GPA",
+      grade: "GPA not available yet",
       desc: "Attending",
       degree: "Master of Science, Computer Science",
     },
     {
       id: 1,
-      img: "https://www.ivyscholars.com/wp-content/uploads/2020/06/ut_austin_logo.png",
+      img: UTSeal,
       school: "the University of Texas at Austin",
       date: "Sep 2021 - May 2025",
-      grade: "3.7 / 4.0 GPA",
+      grade: "3.7 / 4.0",
       desc: "Graduated\nRelevant Coursework: Data Structures, Algorithms, Compilers, Operating Systems, Machine Learning, Data Analytics for Edge AI",
       degree: "Bachelor of Science, Electrical and Computer Engineering",
     },
@@ -189,14 +182,15 @@ export const Bio = {
       id: 0,
       title: "UT Austin Agentic AI Lab – GeoFlow Short Paper Co-Author",
       date: "Apr 2025 – Jun 2025",
-      description: "- Invented GeoFlow, a state-of-the-art Python system that generates workflows for geospatial tasks from natural human commands\n- Designed custom evaluation algorithm, enabling reliable system performance measurement among multiple valid output structures\n- Improved agentic success by 6.8% and correctness by 3.3%, with slightly lower token usage than the previous state-of-the-art model\n- Co-authored manuscript with Dr. Dimitrios Stamoulis and Dr. Diana Marculescu, under review for ACM SIGSPATIAL 2025",
+      description: "- Co-authored manuscript with Dr. Dimitrios Stamoulis and Dr. Diana Marculescu, accepted at ACM SIGSPATIAL 2025\n- Co-invented GeoFlow with 2 professors and 5 students, a Python system generating geospatial workflows from human commands\n- Refactored GeoFlow tool call module to enable automatic function calling and execution, reducing system runtime by 15%\n-  Improved agentic success by 6.8% and correctness by 3.3%, with slightly lower token usage than previous state-of-the-art model\n- Innovated custom evaluation algorithm, enabling reliable system performance measurement among multiple valid output structures",
       image: "https://logos-world.net/wp-content/uploads/2022/02/University-of-Texas-at-Austin-Seal-Logo.png",
+      github: "https://arxiv.org/abs/2508.04719"
     },
     {
       id: 1,
       title: "Texas Spacecraft Laboratory – Satellite Hardware System, Lead Engineer",
       date: "Sep 2024 – Present ",
-      description: "- Built scalable hardware testing system, enabling real-time signal processing through serial communication and multithreading\n - Prevented costly delays and signal misreads by ensuring precise 5ms signal intervals, eliminating issues common in manual testing\n- Implemented caching that reduced redundant satellite signal requests by 20%, optimizing data retrieval and system performance\n- Mentored junior engineers and ran agile dev practice to ensure smooth handoff and long-term maintainability of the software system",
+      description: "- Created hardware testing system integrating real-time signal processing via serial communication, boosting 25% testing efficiency\n- Averted costly delays and signal misreads by ensuring precise 5ms signal intervals, eliminating issues common in manual testing\n- Applied caching mechanism to reduce redundant satellite signal requests by 19%, optimizing data retrieval and system performance\n- Mentored junior engineers in agile dev practices, enabling system handoff and ensuring scalability and long-term maintainability",
       image: "https://linktr.ee/og/image/uttsl.jpg",
       github: ""
     },
@@ -204,7 +198,7 @@ export const Bio = {
       id: 2,
       title: "Stanford PINTOS Operating Systems Lab - UT Austin ECE461S Undergraduate",
       date: "Sep 2024 – Dec 2024",
-      description: "- Built a functioning mini operating system capable of multitasking, memory management, and file storage within an x86 emulator\n- Prevented errors or crashes when multiple programs run simultaneously by integrating synchronization mechanisms\n- Allowed the OS to safely handle large programs without crashing by implementing virtual memory support with supplemental tables\n- Enabled dynamic stack growth and paging, ensuring programs can use memory flexibly and avoid failures under heavy load",
+      description: "- - Partnered with one teammate to engineer core OS components in C++ supporting multitasking, virtual memory, and file storage\n- Embedded synchronization mechanisms, guaranteeing stable, error-free, and crash-resistant concurrent program execution\n- Applied supplemental page tables and lazy-loading mechanisms, boosting system virtual memory capacity to run large programs\n- Enabled dynamic stack growth and demand paging, allowing reliable operation and memory allocation under heavy workloads",
       image:"https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/stanford-university-stacked.png",
       github: ""
     },
@@ -214,23 +208,14 @@ export const Bio = {
       date: "Nov 2023 - Jan 2024",
       description:
         "The website you are looking at right now! Click the button below for details.",      
-        image:"https://cdn3.iconfinder.com/data/icons/interview-element-1/64/portfolio-personal-information-newsletters-collection-512.png",
+        image:"https://png.pngtree.com/element_our/png_detail/20181013/code-icon-design-vector-png_125856.jpg",
       github: "https://github.com/aldStanley/NewWebsite",
     },
     {
       id: 4,
-      title: "Mastermind Game",
-      date: "Oct 2023 - Jan 2024",
-      description:
-        "This is a text version of the code-guessing game Mastermind. It Leverages Java networking APIs to establish a client-server architecture, utilizing multithreading to manage concurrency. I Designed a Message class to facilitate versatile communication protocol(such as Message containing not only String), enhance scalability, and prevent input anomaly errors. There is also robust error-handling mechanisms to efficiently and gracefully manage scenarios such as player disconnection",      
-        image:"https://cdn11.bigcommerce.com/s-pqt7n8/images/stencil/1280x1280/products/6668/38385/mastermindgame__30108__68647.1683559179.370.500__85910.1696881251.jpg?c=2",
-      github: "https://github.com/aldStanley/Mastermind-game",
-    },
-    {
-      id: 5,
       title: "Texas Blockchain Engineering Lab – Blockchain From Scratch Engineer",
       date: "Sep 2022 – Dec 2022",
-      description: "- Built core blockchain primitives in Rust, implementing block structures, secure hashing, proof-of-work mining, and chain validation\n- Developed peer-to-peer network layer to broadcast and synchronize new blocks, simulating decentralized consensus across nodes\n- Created command-line interface for adding blocks, viewing chain, and validating integrity, making blockchain intuitive and testable\n- Implemented compact proof-of-work mechanism with adjustable difficulty, ensuring chain security and preventing tampering ",
+      description: "- Built core blockchain primitives in Rust, implementing block structures, secure hashing, proof-of-work mining, and chain validation\n- Developed peer-to-peer network layer to broadcast and synchronize new blocks, simulating decentralized consensus across nodes\n- Created command-line interface for adding blocks, viewing chain, and validating integrity, making blockchain intuitive and testable\n- Incorporated compact proof-of-work mechanism with adjustable difficulty, ensuring chain security and preventing tampering",
         image:"https://media.licdn.com/dms/image/v2/D561BAQEH-xa3vertwA/company-background_10000/company-background_10000/0/1659909806517/texas_blockchain_cover?e=2147483647&v=beta&t=on_7IabxtMdc3m82IsyIZQeNHZW15_OuqjKx_tyrG0E",
       github: "",
     },

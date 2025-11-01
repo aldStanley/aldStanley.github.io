@@ -38,14 +38,22 @@ const Card = styled.div`
         display: block;
     }
 `
+const ImageWrapper = styled.div`
+  width: 100%;
+  aspect-ratio: 16 / 9; /* You can change this ratio */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: ${({ theme }) => theme.white};
+  box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
+`;
+
 
 const Image = styled.img`
-    width: 100%;
-    height: 180px;
-    background-color: ${({ theme }) => theme.white};
-    border-radius: 10px;
-    box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
-`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;
+
 const Span = styled.span`
 overflow: hidden;
 display: -webkit-box;
@@ -137,7 +145,10 @@ const Avatar = styled.img`
 const ProjectCards = ({project,setOpenModal}) => {
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
-            <Image src={project.image}/>
+            <ImageWrapper>
+                <Image src={project.image}/>
+            </ImageWrapper>
+            
             <Tags>
                 {project.tags?.map((tag, index) => (
                 <Tag>{tag}</Tag>
@@ -159,7 +170,6 @@ const ProjectCards = ({project,setOpenModal}) => {
                     <Avatar src={member.img}/>
                 ))}
             </Members>
-            {/* <Button>View Project</Button> */}
         </Card>
     )
 }
