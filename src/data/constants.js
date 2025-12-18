@@ -4,7 +4,8 @@ export const Bio = {
     name: "Stanley Chung",
     roles: [
       "Software Engineer",
-      "Full Stack Developer"
+      "AI Developer",
+      "Full-Stack Developer",
     ],
     description:
       "I'm a software engineer passionate about solving real-world problems and building impactful systems. With a strong interest in AI, I enjoy creating intelligent tools that make a difference. Recently, I contributed to the development of GeoFlow, a Geospatial AI agent achieving state-of-the-art performance—our short paper was recently accepted at the 33rd ACM SIGSPATIAL (Link below.) I'm always open to opportunities to collaborate on meaningful, forward-looking tech projects!",
